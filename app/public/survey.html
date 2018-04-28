@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="../app/data/friends.js"></script>
+    <script src="../data/friends.js"></script>
     <script src="../routing/htmlRoutes.js"></script>
     <script src="../routing/apiRoutes.js"></script>
     <title>Survey</title>
@@ -16,6 +16,8 @@
     <div class="container">
         <p>Answer each question truthfully. Each question will be on a scale of 1 to 5 with 1 meaning you completely disagree, and 5 meaning you completely agree with the statement.</p>
         <div id="survey">
+            <p>Name: <input type="text" name="name" id="name"></p>
+            <p>Paste the url of the image you'd like to upload: <input name="photo" id="photo" type="text"></p>
             <form>
                 <fieldset>
                     <legend>Cats are the best pets.</legend>
@@ -116,6 +118,7 @@
                     <input type="radio" name="q10" value="5"><label for="5"> 5</label>
                 </fieldset>
             </form>
+            <br>
             <button id="submitSurvey">Submit</button>
         </div>
     </div>

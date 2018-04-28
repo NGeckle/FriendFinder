@@ -1,6 +1,6 @@
 var path = require("path");
 
-var friends = require("../app/data/friends.js");
+var friends = require("../data/friends.js");
 
 module.exports = function(app) {
 
@@ -8,9 +8,6 @@ module.exports = function(app) {
         res.json(friends);
     });
     app.post("/api/friends", function(req, res) {
-        if (friends.data < 5) {
-            friends.push(req.body);
-            res.json(true);
-        } 
+        friends.push(req.body);
     });
 };

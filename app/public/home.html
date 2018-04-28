@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="../app/data/friends.js"></script>
+    <script src="../data/friends.js"></script>
     <script src="../routing/htmlRoutes.js"></script>
     <script src="../routing/apiRoutes.js"></script>
     <title>Friend Finder</title>
@@ -15,14 +15,7 @@
     <h3>We help you find friends!</h3>
     <div class="container">
         <p>To get started type in your name, select a photo of yourself, and then click the "Start Survey" button to start the survey.</p>
-        <div>
-            <p>Name: <input type="text" name="name" id="name"></p>
-            <label for="file">Choose image to upload</label>
-            <input name="file" id="file" type="file" accept=".jpg, .jpeg, .png, .gif">
-            <br><br>
-            <a href="/survey"><button id="submit">Start Survey</button></a>
-
-        </div>
+        <a href="/survey"><button>Start Survey</button></a>
     </div>
 </body>
 </html>
