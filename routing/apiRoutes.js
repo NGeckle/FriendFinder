@@ -1,10 +1,16 @@
-var express = require("express");
+var path = require("path");
 
-var app = express();
+var friends = require("../app/data/friends.js");
 
-app.get("/api/friends", function(req, res) {
+module.exports = function(app) {
 
-});
-app.post("/api/friends", function(req, res) {
-
-});
+    app.get("/api/friends", function(req, res) {
+        res.json(friends);
+    });
+    app.post("/api/friends", function(req, res) {
+        if (friends.data < 5) {
+            friends.push(req.body);
+            res.json(true);
+        } 
+    });
+};
