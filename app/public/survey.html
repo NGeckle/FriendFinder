@@ -16,111 +16,143 @@
     <div class="container">
         <p>Answer each question truthfully. Each question will be on a scale of 1 to 5 with 1 meaning you completely disagree, and 5 meaning you completely agree with the statement.</p>
         <div id="survey">
-            <p>Name: <input type="text" name="name" id="name"></p>
-            <p>Paste the url of the image you'd like to upload: <input name="photo" id="photo" type="text"></p>
+            <p>Name: <input type="text" name="name" id="name" required></p>
+            <p>Paste the url of the image you'd like to upload: <input name="photo" id="photo" type="text" required></p>
             <form>
                 <fieldset>
                     <legend>Cats are the best pets.</legend>
-                    <input type="radio" name="q1" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q1" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q1" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q1" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q1" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q1" value="1" id="q1"><label for="1"> 1</label>
+                    <input type="radio" name="q1" value="2" id="q1"><label for="2"> 2</label>
+                    <input type="radio" name="q1" value="3" id="q1"><label for="3"> 3</label>
+                    <input type="radio" name="q1" value="4" id="q1"><label for="4"> 4</label>
+                    <input type="radio" name="q1" value="5" id="q1"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>Dogs are the best pets.</legend>
-                    <input type="radio" name="q2" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q2" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q2" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q2" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q2" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q2" value="1" id="q2"><label for="1"> 1</label>
+                    <input type="radio" name="q2" value="2" id="q2"><label for="2"> 2</label>
+                    <input type="radio" name="q2" value="3" id="q2"><label for="3"> 3</label>
+                    <input type="radio" name="q2" value="4" id="q2"><label for="4"> 4</label>
+                    <input type="radio" name="q2" value="5" id="q2"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>You want friends.</legend>
-                    <input type="radio" name="q3" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q3" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q3" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q3" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q3" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q3" value="1" id="q3"><label for="1"> 1</label>
+                    <input type="radio" name="q3" value="2" id="q3"><label for="2"> 2</label>
+                    <input type="radio" name="q3" value="3" id="q3"><label for="3"> 3</label>
+                    <input type="radio" name="q3" value="4" id="q3"><label for="4"> 4</label>
+                    <input type="radio" name="q3" value="5" id="q3"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>You like most people you come in contact with.</legend>
-                    <input type="radio" name="q4" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q4" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q4" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q4" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q4" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q4" value="1" id="q4"><label for="1"> 1</label>
+                    <input type="radio" name="q4" value="2" id="q4"><label for="2"> 2</label>
+                    <input type="radio" name="q4" value="3" id="q4"><label for="3"> 3</label>
+                    <input type="radio" name="q4" value="4" id="q4"><label for="4"> 4</label>
+                    <input type="radio" name="q4" value="5" id="q4"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>You like video games.</legend>
-                    <input type="radio" name="q5" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q5" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q5" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q5" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q5" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q5" value="1" id="q5"><label for="1"> 1</label>
+                    <input type="radio" name="q5" value="2" id="q5"><label for="2"> 2</label>
+                    <input type="radio" name="q5" value="3" id="q5"><label for="3"> 3</label>
+                    <input type="radio" name="q5" value="4" id="q5"><label for="4"> 4</label>
+                    <input type="radio" name="q5" value="5" id="q5"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>You want to play video games with friends you find on here.</legend>
-                    <input type="radio" name="q6" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q6" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q6" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q6" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q6" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q6" value="1" id="q6"><label for="1"> 1</label>
+                    <input type="radio" name="q6" value="2" id="q6"><label for="2"> 2</label>
+                    <input type="radio" name="q6" value="3" id="q6"><label for="3"> 3</label>
+                    <input type="radio" name="q6" value="4" id="q6"><label for="4"> 4</label>
+                    <input type="radio" name="q6" value="5" id="q6"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>You are enjoying this survey.</legend>
-                    <input type="radio" name="q7" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q7" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q7" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q7" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q7" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q7" value="1" id="q7"><label for="1"> 1</label>
+                    <input type="radio" name="q7" value="2" id="q7"><label for="2"> 2</label>
+                    <input type="radio" name="q7" value="3" id="q7"><label for="3"> 3</label>
+                    <input type="radio" name="q7" value="4" id="q7"><label for="4"> 4</label>
+                    <input type="radio" name="q7" value="5" id="q7"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>You hope this will be over soon.</legend>
-                    <input type="radio" name="q8" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q8" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q8" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q8" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q8" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q8" value="1" id="q8"><label for="1"> 1</label>
+                    <input type="radio" name="q8" value="2" id="q8"><label for="2"> 2</label>
+                    <input type="radio" name="q8" value="3" id="q8"><label for="3"> 3</label>
+                    <input type="radio" name="q8" value="4" id="q8"><label for="4"> 4</label>
+                    <input type="radio" name="q8" value="5" id="q8"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>You like the design of this website.</legend>
-                    <input type="radio" name="q9" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q9" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q9" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q9" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q9" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q9" value="1" id="q9"><label for="1"> 1</label>
+                    <input type="radio" name="q9" value="2" id="q9"><label for="2"> 2</label>
+                    <input type="radio" name="q9" value="3" id="q9"><label for="3"> 3</label>
+                    <input type="radio" name="q9" value="4" id="q9"><label for="4"> 4</label>
+                    <input type="radio" name="q9" value="5" id="q9"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
                     <legend>Choose a random answer.</legend>
-                    <input type="radio" name="q10" value="1"><label for="1"> 1</label>
-                    <input type="radio" name="q10" value="2"><label for="2"> 2</label>
-                    <input type="radio" name="q10" value="3"><label for="3"> 3</label>
-                    <input type="radio" name="q10" value="4"><label for="4"> 4</label>
-                    <input type="radio" name="q10" value="5"><label for="5"> 5</label>
+                    <input type="radio" name="q10" value="1" id="q10"><label for="1"> 1</label>
+                    <input type="radio" name="q10" value="2" id="q10"><label for="2"> 2</label>
+                    <input type="radio" name="q10" value="3" id="q10"><label for="3"> 3</label>
+                    <input type="radio" name="q10" value="4" id="q10"><label for="4"> 4</label>
+                    <input type="radio" name="q10" value="5" id="q10"><label for="5"> 5</label>
                 </fieldset>
             </form>
             <br>
-            <button id="submitSurvey">Submit</button>
+            <button id="submit">Submit</button>
+            <div id="match">
+            </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $("#submit").on("click", function() {
+            var answer1 = parseInt($("input[name=q1]:checked").val());
+            var answer2 = parseInt($("input[name=q2]:checked").val());
+            var answer3 = parseInt($("input[name=q3]:checked").val());
+            var answer4 = parseInt($("input[name=q4]:checked").val());
+            var answer5 = parseInt($("input[name=q5]:checked").val());
+            var answer6 = parseInt($("input[name=q6]:checked").val());
+            var answer7 = parseInt($("input[name=q7]:checked").val());
+            var answer8 = parseInt($("input[name=q8]:checked").val());
+            var answer9 = parseInt($("input[name=q9]:checked").val());
+            var answer10 = parseInt($("input[name=q10]:checked").val());
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10]
+            };
+            var url = window.location.origin;
+
+            $.post(url + "/api/friends", newFriend, function(data) {
+                if (data.name !== undefined) {
+                    $("#match").html(`<p>Your match is ${data.name}!</p><img src="${data.photo}" height="200">`);
+                }
+                else {
+                    
+                }
+            });
+            
+        });
+    </script>
 </body>
 </html>
