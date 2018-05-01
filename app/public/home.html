@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"  type="text/css" href="../../assets/css/style.css">
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="../data/friends.js"></script>
     <script src="../routing/htmlRoutes.js"></script>
@@ -11,11 +16,17 @@
     <title>Friend Finder</title>
 </head>
 <body>
-    <h1>Friend Finder</h1>
-    <h3>We help you find friends!</h3>
-    <div class="container">
-        <p>To get started type in your name, select a photo of yourself, and then click the "Start Survey" button to start the survey.</p>
-        <a href="/survey"><button>Start Survey</button></a>
+    <div class="jumbotron">
+        <h1 class="text-center">Friend Finder</h1>
+        <h3 class="text-center">We help you find friends!</h3>
+        <div class="container">
+            <br>
+            <p class="text-center">To get started type in your name, select a photo of yourself, and then click the "Start Survey" button to start the survey.</p>
+            <br>
+            <div class="text-center">
+                <a href="/survey"><button class="btn btn-secondary">Start Survey</button></a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

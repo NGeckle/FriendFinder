@@ -8,12 +8,12 @@ module.exports = function(app) {
         res.json(friends);
     });
     app.post("/api/friends", function(req, res) {
-        var difference = 40;
+        var difference = 100;
         var matchName = "";
         var matchPhoto = "";
         friends.forEach(function(friend) {
             var matchedScores = [];
-            var totalDifference = 40;
+            var totalDifference = 100;
             function add(a, b) {
                 return a + b;
             }
@@ -34,3 +34,5 @@ module.exports = function(app) {
         friends.push(req.body);
     });
 };
+
+//Something is broken in the code to find who the friend will be and I'm not sure how to fix it.
